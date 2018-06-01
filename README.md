@@ -1,16 +1,38 @@
 # react-conditional-wrap
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+by [@thekitze](https://twitter.com/thekitze)
 
-Describe react-conditional-wrap here.
+### Example
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[Open demo on CodeSandbox](https://codesandbox.io/s/2wmr700nwp)
+.
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+```js
+import React from 'react';
+import { render } from 'react-dom';
+import { Tooltip } from 'react-tippy';
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+import ConditionalWrap from 'conditional-wrap';
+
+const Button = ({ tooltip, children }) => (
+  <ConditionalWrap
+    condition={!!tooltip}
+    wrap={children => (
+      <Tooltip position="bottom" title={tooltip}>
+        {children}
+      </Tooltip>
+    )}
+  >
+    <button>{children}</button>
+  </ConditionalWrap>
+);
+
+const Demo = () => (
+  <div>
+    <Button> Normal button </Button>
+    <Button tooltip="Hi there!"> Button with a tooltip! </Button>
+  </div>
+);
+
+render(<Demo />, document.getElementById('root'));
+```
