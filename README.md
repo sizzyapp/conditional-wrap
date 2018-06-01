@@ -2,7 +2,7 @@
 A simple React component for wrapping children based on a condition.   
 Made by [Kitze](https://twitter.com/thekitze).
 
-# Install
+### Install
 ```
 yarn add conditional-wrap
 ```
