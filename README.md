@@ -1,11 +1,14 @@
-# react-conditional-wrap
+# conditional-wrap
+A simple React component for wrapping children based on a condition.
+Made by [Kitze](https://twitter.com/thekitze).
 
-by [@thekitze](https://twitter.com/thekitze)
+# Install
+```
+yarn add conditional-wrap
+```
 
 ### Example
-
 [Open demo on CodeSandbox](https://codesandbox.io/s/2wmr700nwp)
-.
 
 ```js
 import React from 'react';
