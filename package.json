@@ -23,6 +23,7 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@types/react": "^16.9.17",
     "nwb": "0.21.x",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
