@@ -1,8 +1,8 @@
 /// <reference types="react" />
 interface ConditionalWrapProps {
   condition: boolean;
-  wrap: (children: JSX.Element) => JSX.Element;
-  children: JSX.Element;
+  wrap: (children: React.ReactNode) => React.ReactNode;
+  children: React.ReactNode;
 }
-declare const _default: ({ condition, children, wrap }: ConditionalWrapProps) => JSX.Element;
+declare const _default: ({ condition, children, wrap }: ConditionalWrapProps) => React.ReactNode;
 export default _default;
