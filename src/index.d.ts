@@ -4,5 +4,5 @@ interface ConditionalWrapProps {
   wrap: (children: React.ReactNode) => React.ReactNode;
   children: React.ReactNode;
 }
-declare const _default: ({ condition, children, wrap }: ConditionalWrapProps) => React.ReactNode;
+declare const _default: ({ condition, children, wrap }: ConditionalWrapProps) => JSX.Element;
 export default _default;
