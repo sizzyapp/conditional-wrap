@@ -3,10 +3,10 @@ import 'react-tippy/dist/tippy.css';
 import { render } from 'react-dom';
 import { Tooltip } from 'react-tippy';
 
-import ConditionalWrap from '../../src';
+import { ConditionalWrap } from '../../src';
 
 const Button = ({ tooltip, children }) => (
-  <ConditionalWrap condition={!!tooltip} wrap={children => <Tooltip title={tooltip}>{children}</Tooltip>}>
+  <ConditionalWrap condition={!!tooltip} wrap={(children) => <Tooltip title={tooltip}>{children}</Tooltip>}>
     <button>{children}</button>
   </ConditionalWrap>
 );

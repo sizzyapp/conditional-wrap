@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.17",
-    "nwb": "0.21.x",
+    "nwb": "0.25.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-tippy": "^1.2.2"

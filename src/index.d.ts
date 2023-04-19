@@ -4,5 +4,6 @@ interface ConditionalWrapProps {
   wrap: (children: JSX.Element) => JSX.Element;
   children: JSX.Element;
 }
-declare const _default: ({ condition, children, wrap }: ConditionalWrapProps) => JSX.Element;
-export default _default;
+
+declare const ConditionalWrap: ({ condition, children, wrap }: ConditionalWrapProps) => JSX.Element;
+export { ConditionalWrap, ConditionalWrap as default };

@@ -1,4 +1,6 @@
 import React from 'react';
 
-export default ({ condition, children, wrap }) =>
+export const ConditionalWrap = ({ condition, children, wrap }) =>
   condition ? React.cloneElement(wrap(children)) : children;
+
+export default ConditionalWrap;
