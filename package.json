@@ -1,6 +1,6 @@
 {
   "name": "conditional-wrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "conditional-wrap React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "16.x"
+    "react": ">=16.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.17",
