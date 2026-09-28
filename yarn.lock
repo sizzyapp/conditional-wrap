@@ -7709,9 +7709,9 @@ socket.io-parser@~3.4.0:
     isarray "2.0.1"
 
 socket.io@^2.3.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-2.5.0.tgz#e1c7fb1823f7fa09dfebb5bb68f9d2ee03a0a2e3"
-  integrity sha512-gGunfS0od3VpwDBpGwVkzSZx6Aqo9uOcf1afJj2cKnKFAoyl16fvhpsUhmUFd4Ldbvl5JvRQed6eQw6oQp6n8w==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-2.5.1.tgz#224459ecf13ab66bfc7fb6dd0c6bf760a9895e7f"
+  integrity sha512-eaTE4tBKRD6RFoetquMbxgvcpvoDtRyIlkIMI/SMK2bsKvbENTsDeeu4GJ/z9c90yOWxB7b/eC+yKLPbHnH6bA==
   dependencies:
     debug "~4.1.0"
     engine.io "~3.6.0"
